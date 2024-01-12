@@ -1,6 +1,7 @@
 # ArvanPlayer-DL
 this tool uses to download arvanplayer m3u8 links.
-description ArvanPlayer(R1Player). <https://player.arvancloud.ir/>
+
+ArvanPlayer(R1Player). <https://player.arvancloud.ir/>
 
 # Usage :
 ```python3
