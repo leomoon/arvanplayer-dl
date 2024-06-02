@@ -1,27 +1,31 @@
-# ArvanPlayer-DL
-this tool uses to download arvanplayer m3u8 links.
-
-ArvanPlayer(R1Player). <https://player.arvancloud.ir/>
+# arvanplayer-dl
+Downloads videos from arvan player.
 
 # how it works?
 
-Arvan Cloud uses AES-128-CBC to encrypt m3u8 ts files. The following script can decrypt these encrypted videos. 
+Arvan Cloud uses AES-128-CBC to encrypt m3u8 ts files. The following script can decrypt these encrypted videos.
 
 You can achieve the same result using "ffmpeg".
 
-# Usage :
-first install cryptography library
+# Prerequisites
+Install required python and linux packages.
 ```bash
+# install jq linux package to parse json files
+sudo apt install jq -y
+# create virtual environment
+python3 -m venv .vnev
+# install pip packages packages
+pip3 install requests
 pip3 install pycryptodome
 ```
-you can import file in your project
-```python3
-from ArvanPlayer_DL import download
 
-download("m3u8 link","my_video.mp4")
+# Usage :
+Create links.txt and add config.json video links that are like below.
+```text
+https://mongard.arvanvod.ir/zzzzzzzzzz/xxxxxxxxxxx/origin_config.json
 ```
-or run the file simple.
 
+Run below to download all links.
 ```bash
-python3 ArvanPlayer_DL.py
+./dl.sh links.txt path/to/download
 ```
