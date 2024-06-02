@@ -25,7 +25,7 @@ mkdir -p "$dest_dir"
 json_counter=1
 
 # Download each JSON file
-while IFS= read -r url; do
+while IFS= read -r url || [ -n "$url" ]; do
     # Calculate the file number with leading zeros
     json_file_num=$(printf "%02d" $json_counter)
     # Get the file extension from the URL
