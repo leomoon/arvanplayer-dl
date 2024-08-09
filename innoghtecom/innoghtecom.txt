@@ -1,0 +1,10 @@
+https://vdi.innoghte.com/api/v1/video/get-config/657cdff6-6602-4310-bcf8-ff0c452d3f6c/com/origin_config.json 01-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/48b40b07-7ad9-42fe-ae08-57de3340b863/com/origin_config.json 02-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/6074baa0-4c3b-4d79-b0ed-5d2b66dcc4c0/com/origin_config.json 03-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/ab88428f-9710-4a20-98ec-9e600d846b3e/com/origin_config.json 04-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/9681596d-41c4-46be-9aa9-58759ebb82c3/com/origin_config.json 05-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/d702f242-a22b-4d44-8aaa-7ecb4b1bc9f2/com/origin_config.json 06-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/c1e2868b-b974-4e4c-939d-fb608ad637a5/com/origin_config.json 07-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/480aabc1-41ce-4f82-9c20-f6220a0f12e9/com/origin_config.json 08-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/d4e87e9a-06d5-4c28-91ed-b70eec47e247/com/origin_config.json 09-720.mp4
+https://vdi.innoghte.com/api/v1/video/get-config/5272ed4f-39a0-4cd3-9831-8775203dbf95/com/origin_config.json 10-720.mp4

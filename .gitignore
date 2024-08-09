@@ -1,4 +1,9 @@
 temp
+temp*
+*.mp3
+*.mp4
+*.config
+*.m3u8
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

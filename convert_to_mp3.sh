@@ -6,6 +6,18 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+# Check if the provided path is a directory
+if [ ! -d "$1" ]; then
+    echo "Error: '$1' is not a valid directory"
+    exit 1
+fi
+
+# Check if ffmpeg is installed
+if ! command -v ffmpeg &> /dev/null; then
+    echo "Error: ffmpeg is not installed. Please install it and try again."
+    exit 1
+fi
+
 # Directory containing MP4 files
 input_dir="$1"
 
